@@ -8,7 +8,7 @@ function Particle() {
         params={{
           particles: {
             number: {
-              value: 100,
+              value: 1000,
             },
             size: {
               value: 5,
@@ -20,7 +20,10 @@ function Particle() {
               distance: 400,
               enable: false,
               opacity: 1,
-              width: 5,
+              width: 1,
+            },
+            size: {
+              value: 2,
             },
             move: {
               direction: "none",
