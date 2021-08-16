@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 // import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 // import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { useRouter } from "next/router";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -18,15 +18,7 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-
-  useEffect(() => {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-    // window.addEventListener("scroll", scrollHandler);
-  }, []);
+  const router = useRouter();
 
   return (
     <Navbar
@@ -50,28 +42,40 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Link href="/">
-                <a className="navitem">
+                <a
+                  className={`navitem ${
+                    router.pathname === "/" ? "active" : ""
+                  }`}>
                   <AiOutlineHome /> home
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/about">
-                <a className="navitem">
+                <a
+                  className={`navitem ${
+                    router.pathname === "/about" ? "active" : ""
+                  }`}>
                   <AiOutlineUser /> About
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/projects">
-                <a className="navitem">
+                <a
+                  className={`navitem ${
+                    router.pathname === "/projects" ? "active" : ""
+                  }`}>
                   <AiOutlineFundProjectionScreen /> projects
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/resume">
-                <a className="navitem">
+                <a
+                  className={`navitem ${
+                    router.pathname === "/resume" ? "active" : ""
+                  }`}>
                   <CgFileDocument /> resume
                 </a>
               </Link>
