@@ -23,6 +23,7 @@ function IntroductionBody() {
               alt="myimage"
               width="325px"
               height="300px"
+              className="profilepic"
             />
           </Col>
         </Row>

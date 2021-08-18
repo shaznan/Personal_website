@@ -29,58 +29,64 @@ function Techstack() {
         programming
       </h1>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJavascript1 className="icon-logo" style={{ color: "#faeb14" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiReact className="icon-logo" style={{ color: "#61DBFB" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextDotJs />
+        <SiNextDotJs className="icon-logo" style={{ color: "#8000ff" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiMongodb className="icon-logo" style={{ color: "#4DB33D" }} />
         <span style={{ fontSize: "1rem", color: "rgba(255,255,255,0.7" }}>
           (basics)
         </span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGit className="icon-logo" style={{ color: "#F1502F" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialUi />
+        <SiMaterialUi className="icon-logo" style={{ color: "#17d1ff" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap />
+        <SiBootstrap className="icon-logo" style={{ color: "#602C50" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
+        <SiHtml5 className="icon-logo" style={{ color: "#e34c26" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCss3 />
+        <SiCss3 className="icon-logo" style={{ color: "#264de4" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSass />
+        <SiSass className="icon-logo" style={{ color: "#b37399aa" }} />
       </Col>
       <h1 className=" aboutheading" style={{ zIndex: +3 }}>
         Other <strong className="yellow">Skillset </strong>{" "}
       </h1>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAdobeillustrator />
+        <SiAdobeillustrator
+          className="icon-logo"
+          style={{ color: "#24f7eb" }}
+        />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAdobeindesign />
+        <SiAdobeindesign className="icon-logo" style={{ color: "#562F44" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAdobephotoshop />
+        <SiAdobephotoshop className="icon-logo" style={{ color: "#ec640f" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAdobepremiere />
+        <SiAdobepremiere className="icon-logo" style={{ color: "#ED2224" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAdobeaftereffects />
+        <SiAdobeaftereffects
+          className="icon-logo"
+          style={{ color: "#CF96FD" }}
+        />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftoffice />
+        <SiMicrosoftoffice className="icon-logo" style={{ color: "#f25022" }} />
       </Col>
     </Row>
   );

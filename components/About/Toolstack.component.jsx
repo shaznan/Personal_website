@@ -15,16 +15,19 @@ function Toolstack() {
         Programming <strong className="yellow">Tools</strong>
       </h1>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows />
+        <SiWindows className="icon-logo" style={{ color: "white" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiVisualstudiocode
+          className="icon-logo"
+          style={{ color: "#0078d7" }}
+        />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiPostman className="icon-logo" style={{ color: "#ff5e00" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAdobexd />
+        <SiAdobexd className="icon-logo" style={{ color: "#ff00ee" }} />
       </Col>
     </Row>
   );

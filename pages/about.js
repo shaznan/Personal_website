@@ -11,7 +11,6 @@ import Skillset from "../components/About/Skillset.component";
 import Techstack from "../components/About/TechStack.component";
 import Toolstack from "../components/About/Toolstack.component";
 
-
 function About() {
   return (
     <Container fluid className="about-section">
