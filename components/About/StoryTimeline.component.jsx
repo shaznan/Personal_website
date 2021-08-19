@@ -2,7 +2,7 @@ import React from "react";
 import Timeline from "@material-ui/lab/Timeline";
 import StoryEvent from "./StoryEvent.component";
 import { Fragment } from "react-is";
-import { GiSchoolBag } from "react-icons/Gi";
+import { FaSchool } from "react-icons/fa";
 import { MdSchool } from "react-icons/md";
 import { MdWork } from "react-icons/md";
 import { ImExit } from "react-icons/im";
@@ -16,7 +16,7 @@ export default function StoryTimeline() {
         <StoryEvent
           event="Graduated from school right after acing my Ordinary Level"
           description="I was full-on energetic and ready to take my next step into university life. The only problem I had, just like the majority, is not knowing what career path to take. "
-          icon={<GiSchoolBag />}
+          icon={<FaSchool />}
           Number="1"
         />
         <StoryEvent
