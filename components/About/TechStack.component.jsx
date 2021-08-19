@@ -1,12 +1,7 @@
-import { fontSize } from "@material-ui/system";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import { DiJavascript1, DiReact, DiMongodb, DiGit } from "react-icons/di";
 import {
-  SiPytorch,
-  SiTensorflow,
-  SiFirebase,
   SiNextDotJs,
   SiMaterialUi,
   SiBootstrap,
