@@ -15,10 +15,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <link
-          rel="shortcut icon"
-          href="https://github.com/shaznan/Shaznan-Graphic-and-Motion-graphic-portfolio-2021/blob/d9a2d8a82afcf2fccf7b0d4a3cd7391434c23953/favicon-16x16.png"
-        />
+        <link rel="shortcut icon" type="image/jpg" href="/favicon.png" />
       </Head>
       <Component {...pageProps} />
     </Fragment>
