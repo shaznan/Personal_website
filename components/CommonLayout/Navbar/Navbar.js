@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-// import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
-// import { Link } from "react-router-dom";
 import { useRouter } from "next/router";
 import {
   AiOutlineHome,
@@ -27,7 +24,11 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}>
       <Container>
-        <span className="namebrand">SF.</span>
+        <span className="namebrand">
+          <a href="/" style={{ textDecoration: "none", color: "#ffc107" }}>
+            SF.
+          </a>
+        </span>
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
